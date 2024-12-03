@@ -1,0 +1,73 @@
+.main-container {
+  text-align:center;
+  height:100vh;
+  width:auto;
+  background-color:black;
+  color:white;
+
+}
+.heading{
+  color:orange;
+}
+.selection-type {
+  background-color:pink;
+  padding:5px;
+  margin:5px;
+  border:2px;
+}
+.sub {
+  background-color:blue;
+  height:30%;
+  width:25%;
+  border-radius:5px;
+  margin-top:30px;
+
+
+}
+.input{
+  margin:7px;
+  text-align:center;
+  border-radius:5px;
+
+
+
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  display: block;
+}
+table {
+  width: 100%;
+  border-collapse:collapse;
+  padding:10px;
+
+}
+
+table th, table td {
+  border: 1px solid;
+  text-align: left;
+  padding: 5px;
+  margin-top:10px;
+}
+
+table th {
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  input, select, sub {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .main-container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
